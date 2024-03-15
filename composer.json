@@ -1,0 +1,22 @@
+{
+	"name": "waaz/schema-bundle",
+	"type": "sulu-bundle",
+	"description": "Sulu Bundle which allows you to add Schema.org JSON to all pages",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andde Zudaire",
+			"email": "andde@studiowaaz.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Waaz\\SchemaBundle\\": "/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.2-dev"
+		}
+	}
+}

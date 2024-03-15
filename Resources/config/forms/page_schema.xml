@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<form xmlns="http://schemas.sulu.io/template/template"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/form-1.0.xsd"
+>
+    <key>page_schema</key>
+
+    <properties>
+        <section name="schema">
+            <properties>
+                <property name="ext/schema/content" type="text_area">
+                    <meta>
+                        <title>Schema *</title>
+                        <info_text>Refer to Schema.org</info_text>
+                    </meta>
+                </property>
+            </properties>
+        </section>
+    </properties>
+</form>
