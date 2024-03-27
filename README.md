@@ -9,7 +9,7 @@ Add the following lines to base.html.twig
 
 ```
 {% include "@WaazSchema/schema.html.twig" with {
-    "schema": extension.schema|default([]),
+    "schema": extension.schema|default({'content': ''}),
     "localizations": localizations|default([]),
 } %}
 
