@@ -54,7 +54,7 @@ class SchemaAdmin extends Admin
                     ->createPreviewFormViewBuilder('sulu_page.page_edit_form.schema', '/schema')
                     ->disablePreviewWebspaceChooser()
                     ->setResourceKey('pages')
-                    ->setFormKey('page_Schema')
+                    ->setFormKey('page_schema')
                     ->setTabTitle('Schema.org')
                     ->setTabPriority(256)
                     ->addToolbarActions($formToolbarActionsWithoutType)
